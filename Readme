@@ -1,0 +1,12 @@
+BuildTree Program 
+
+Hacked By Chris Enck
+Due December 9th 2013
+
+
+This code presents the user with a menu 1-5 and inputs a math expression like ((9*8+3)/3)-(4*9/3), calculates it's value, and prints both RPN and postorder notation.
+
+compiles with 
+g++ -Wall -ansi -pedantic buildTree.cxx tree.cxx Stack.cxx DLList.cxx TreeStack treeDLList.cxx -o test
+
+runs with ./test
